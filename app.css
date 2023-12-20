@@ -1,9 +1,10 @@
 *{
     margin: 0;
 }
-body{
-    font-family: sans-serif ;
-    padding: 0 1rem;
+
+body {
+    font-family: sans-serif;
+    margin: 0 0.6rem;
 }
 .navbar{
     background-image: linear-gradient(to right, rgba(198, 80, 214, 0.97),rgba(149, 173, 229, 1));
@@ -470,6 +471,9 @@ footer p{
         gap: 2rem;
     }
 
+        body {
+            padding: 0 1rem;
+        }
     
     
 }
