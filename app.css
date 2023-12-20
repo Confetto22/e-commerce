@@ -45,6 +45,13 @@ body {
     width: 4rem;
     height: 4rem;
     object-fit: cover;
+   
+}
+.section1-left .tik{
+    animation: upmove 4s ease-in-out infinite;
+}
+.section1-left .cup{
+    animation: downmove 4s ease-in-out infinite;
 }
 .section1-content{
     display: flex;
@@ -124,6 +131,7 @@ body {
 }
 .section2-text p{
     padding: 2rem 0;
+    line-height: 2rem;
 }
 
 .section2-text button{
@@ -185,6 +193,7 @@ body {
 }
 .euro{
     width: 6rem;
+    animation: linemove 4s ease-in-out infinite;
 }
 .ok{
     width: 5rem;
@@ -461,6 +470,32 @@ footer a:hover{
 }
 footer p{
     color: white;
+}
+
+@keyframes linemove{
+    0%{
+        transform: translateX(-80%);
+    }
+    50%{
+        transform: translateX(80%);
+    }
+    100%{
+        /* transform: rotate(240deg); */
+        transform: translateX(-80%);
+        
+    }
+}
+
+@keyframes upmove{
+    
+    50%{
+        transform: translateY(-400%);
+    }
+}
+@keyframes downmove{
+    50%{
+        transform: translateY(400%);
+    }
 }
 
 @media only screen and (min-width:600px){
