@@ -3,7 +3,7 @@
 }
 body{
     font-family: sans-serif ;
-    padding: 0 3rem;
+    padding: 0 1rem;
 }
 .navbar{
     background-image: linear-gradient(to right, rgba(198, 80, 214, 0.97),rgba(149, 173, 229, 1));
@@ -463,19 +463,21 @@ footer p{
 }
 
 @media only screen and (min-width:600px){
+   
     .contact-specials{
     display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+
+    
     
 }
 
 @media only screen  and (max-width:760px){
-   .section1-content{
-  
+   
+    .section1-content{
     justify-content: space-between;
-
    } 
    .section1-text{
     width: 100%;
